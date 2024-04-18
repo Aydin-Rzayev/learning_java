@@ -1,0 +1,17 @@
+Tapşırıq 2
+Aşağıda qeyd edilmiş dəyişən adlarının hansı validdir? (3 seçim edilməlidir)
+
+Cavabım: 1) _b    2)$a  4)Private
+3-ci variantda true reserved sözdür. 5-ci variantda nöqtə var. 6-cı variantda
+variable rəqəmlə başlayır.
+
+
+Tapşırıq 3
+Aşağıda qeyd edilmiş main metodların handı validdir? (3 seçim edilməlidir)
+
+Cavabım: 3) public void main(String[] args)
+4) public static void main(String... elements)
+6) public static final void main(String ... args)
+
+1-ci variantda 5-ci variantda protected olaraq elan olunması səhvdir. 2-ci variantda isə return type qeyd edilməyib.
+
