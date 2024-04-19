@@ -1,0 +1,21 @@
+İntellij İDEA-da yeni bir Java layihə yaradın.
+İstifadəçinin məlumatlarını saxlaya biləcək yeni bir sinif yaradın. Sinifin adı – User
+Sinifin daxilində istifadəçi haqqında məlumatları saxlamaq üçün müvafiq sahələr təyin edin. Məsələn, istifadəçi adı (username), şifrə (password), tam adı (fullName), yaşı (age) və balansı (balance). Tiplərin növünü özünüz seçin.
+Siniflərin, sahələrin, metodların adlandırılması konvensiyaya uyğun olmalıdır.
+Qeyd edilmiş parametrlərin təyin edilməsi üçün bir konstruktor yaradın.
+Main adlı digər bir sinif yaradın. Daxilində main metodunu təyin edin
+main metodunun daxilində User sinifi əsasında bir neçə dənə obyekt yaradın. İstinad tiplərinin adları olsun user1, user2, user 3 və s.
+Yaratdığınız obyektlər haqqında məlumatı System.out.println() metodu vasitəsi ilə çap edin.
+Məlumatı oxunası formada çap etmək üçün User sinifi üçün toString() metodunu təyin edin.
+Proqram təminatını işə salaraq onun işlək olduğunu yoxlayın
+
+User sinifini yeniləyərək giriş dəyişdiricilərini OYP-nin enkapsulyasiya prinsipinə uyğun olaraq təyin edin və getter, setter metodlarını əlavə edin.
+User sinifində yeni parametrsiz konstruktor yaradın.
+Main sinifində (main metodun daxilində) parametrsiz konstruktordan istifadə edərək yeni User obyekti yaradın. İstinadın adı olsun customUser.
+Sinif daxili təyin edilimiş sahələri (istifadəçi adı, şifrə və s.) setter metodları vasitəsi ilə təyin edin.
+getter metodundan istifadə edərək yeni yaradılmış obyektin istifadəçi adını və tam adını əldə edərək System.out.println() vasitəsi ilə çap edin.
+Proqram təminatını işə salaraq onun işlək olduğunu yoxlayın
+
+User sinifinin daxilində count adlı static sahə yaradın.
+Qeyd edilmiş sahənin dəyəri hər yeni User obyekti yaradılanda inkrement edilməlidir və console-a çap edilməlidir.
+Layihəni işə salaraq işlək olduğunu yoxlayın
