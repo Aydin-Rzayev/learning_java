@@ -16,7 +16,7 @@ class Dog{
     }
 }
 
-class main{
+class main{ // todo class adı PascalCase olmalıdır. Naming convention ilə tanış olun
     public static void main(String[] args){
         Dog.getInstance().Bark();
     }

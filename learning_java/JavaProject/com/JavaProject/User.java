@@ -1,11 +1,20 @@
-package com.JavaProject;
+package JavaProject.com.JavaProject; // todo naming convention-la tanış olmağınız tövsiyyə edilir. uppercase package adında yoxdur
+
 public class User {
     private String username;
     private String fullName;
     private int id;
+
+    /*
+        todo balance int olmalı deyil. Məsələn, istifadəçinin balansında 5.5 ola bilər.
+        Bu səbəbdən kəsr tiplər istifadə edilə bilər. Məsələn, float, double.
+        Lakin, tövsiyyə edilən BigDecimal-dır.
+        https://stackoverflow.com/questions/3413448/double-vs-bigdecimal
+     */
     private int balance;
     private String password;
     private static int count = 1;
+    // todo all args contructor yoxdur
     public User(){
         System.out.println(count++);
     }
@@ -41,5 +50,5 @@ public class User {
     }
     
 
-    
+    // todo toString metodu realizə edilməyib
 }
